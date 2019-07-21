@@ -13,7 +13,11 @@ if deli.empty?
 end
 
 def take_a_number(line,person)
-  
+  if deli.empty?
+    deli.each_with_index(1) do |person,line|
+      current_line << "#{person}"
+    end
+    puts 
 end
 
 
