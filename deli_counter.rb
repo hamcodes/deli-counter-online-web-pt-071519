@@ -1,5 +1,4 @@
 def line(deli)
-
 if deli.empty?
     puts "The line is currently empty."
   else
@@ -12,7 +11,7 @@ if deli.empty?
 
 end
 
-def take_a_number(line,person)
+def take_a_number(deli,)
   if deli.empty?
     puts "Welcome, #{person}. You are number #{line} in line."
     deli.each_with_index(1) do |person,line|
