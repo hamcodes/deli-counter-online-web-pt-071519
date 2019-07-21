@@ -16,7 +16,7 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
-
+# first failed attempt!
 # def take_a_number(deli,person)
 #   if deli.empty?
 #     puts "Welcome, #{person}. You are number #{line} in line."
