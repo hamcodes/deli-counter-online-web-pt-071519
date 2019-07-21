@@ -1,7 +1,7 @@
 def line(array)
   if katz_deli = [] 
   puts "The line is currently empty."
-else katz_deli.length > 0 do {|x|
+else katz_deli.length do {|x|
   puts "The line is currently #{x}"
 end
 end
