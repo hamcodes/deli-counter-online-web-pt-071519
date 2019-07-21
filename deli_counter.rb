@@ -20,7 +20,8 @@ def take_a_number(line,person)
     end
     puts current_line
 end
-
+end
+end
 
 
 
