@@ -27,7 +27,7 @@ end
   
   
 
-
+# hard time doing this lab, not understanding the elements within {}
 
 
 
