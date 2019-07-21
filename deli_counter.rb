@@ -21,8 +21,8 @@ def now_serving(deli)
   puts "There is nobody waiting to be served!"
     else
     current_line = "Currently serving #{person}:"
-    deli.each.with_index(1) do |person, i|
-     current_line << " #{i}. #{person}"
+    deli.each.with_index(1) do |person|
+     current_line << "#{person}"
     end
     puts current_line
    end 
