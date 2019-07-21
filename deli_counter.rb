@@ -8,7 +8,7 @@ if deli.empty?
     end
     puts current_line
   end
-end
+
 end
 
 
