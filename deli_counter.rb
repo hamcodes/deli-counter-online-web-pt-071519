@@ -20,7 +20,7 @@ def now_serving(deli)
   if deli.empty?
   puts "There is nobody waiting to be served!"
     else
-    current_line = "The line is currently:"
+    current_line = "Now serving #{person}:"
     deli.each.with_index(1) do |person, i|
      current_line << " #{i}. #{person}"
     end
