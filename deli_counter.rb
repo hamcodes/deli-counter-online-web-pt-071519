@@ -11,10 +11,10 @@ if deli.empty?
 
 end
 
-def take_a_number(deli,)
+def take_a_number(deli,person)
   if deli.empty?
     puts "Welcome, #{person}. You are number #{line} in line."
-    deli.each_with_index(1) do |person,line|
+    deli.each_with_index(1) do |deli,person|
       current_line << "#{person}"
     end
     puts current_line
