@@ -19,7 +19,7 @@ end
 def now_serving(deli,name)
   if line.empty?
   puts "There is nobody waiting to be served!"
-    
+   end 
 end
   
   
