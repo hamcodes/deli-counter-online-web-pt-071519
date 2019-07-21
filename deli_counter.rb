@@ -17,14 +17,11 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-  if deli.empty?
-  puts "There is nobody waiting to be served!"
+  if deli.length == 0
+    puts "There is nobody waiting to be served!"
   else
-    current_line = "The line is currently:"
-    deli.each_with_index do |person, i|
-      current_line << " #{i+1}. #{person}"
-    end
-    puts current_line
+    puts "Currently serving #{deli.first}."
+    deli.shift
   end
 end
   
