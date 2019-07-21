@@ -21,7 +21,7 @@ def take_a_number(line,person)
     puts current_line
 end
 end
-end
+
 
 
 
