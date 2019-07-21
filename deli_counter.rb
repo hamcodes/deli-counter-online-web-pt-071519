@@ -5,6 +5,7 @@ else katz_deli.length > 0 do {|x|
   puts "The line is currently #{x}"
 end
 end
+end
 
 
 
