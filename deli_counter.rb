@@ -24,7 +24,6 @@ def now_serving(deli)
     deli.each_with_index do |person, i|
       current_line << " #{i+1}. #{person}"
     end
-
     puts current_line
   end
 end
