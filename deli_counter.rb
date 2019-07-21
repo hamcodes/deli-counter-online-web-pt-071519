@@ -14,10 +14,11 @@ end
 
 def take_a_number(line,person)
   if deli.empty?
+    puts "Welcome, #{person}. You are number #{line} in line."
     deli.each_with_index(1) do |person,line|
       current_line << "#{person}"
     end
-    puts 
+    puts current_line
 end
 
 
