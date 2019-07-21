@@ -22,7 +22,7 @@ def now_serving(deli)
     else
     current_line = "Currently serving:"
     deli.each.with_index(1) do |person,i|
-     current_line << "#{person},#{i + 1}"
+     current_line << " #{i+1}. #{person}"
     end
     puts current_line
    end 
