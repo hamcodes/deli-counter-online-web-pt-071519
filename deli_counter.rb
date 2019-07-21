@@ -29,16 +29,6 @@ def now_serving(deli)
 end
   
   
-# first failed attempt!
-# def take_a_number(deli,person)
-#   if deli.empty?
-#     puts "Welcome, #{person}. You are number #{line} in line."
-#     deli.each_with_index(1) do |deli,person|
-#       current_line << " #{deli}. #{person}"
-#     end
-#     puts current_line
-# end
-# end
 
 
 
