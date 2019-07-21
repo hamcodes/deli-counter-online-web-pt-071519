@@ -5,7 +5,7 @@ if deli.empty?
   else
     current_line = "The line is currently:"
     deli.each.with_index(1) do |person, i|
-        # Here push onto the current_line
+     current_line << " #{i}."
     end
     puts current_line
   end
